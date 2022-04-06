@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <title>Loja de pack</title>
+</head>
+<body>
+    
+        <header class="header" id="header">
+            <img onclick="irLoja()" id="topo" src="arquivos/icones/angulo-esquerdo.png">
+            <img id="logo"  src="arquivos/icones/profile.png">
+            <img onclick="chamaAnun()" id="topo"  src="arquivos/icones/seguindo.png">
+        </header> 
+ <br><br><br>
+    <div class="conteudo">
+
+        <div class="perfil">
+
+            <img src="arquivos/fotos/modelo01.png" alt="">
+            <h2>Luana</h2>
+            <p>Tenho 21 anos - De Esperito Santo</p>
+
+            <div onclick="mimo()" class="mimo">
+                <p><strong>Enviar mimo</strong></p>
+            </div>
+
+        </div>
+
+        <div class="social">
+            <h4><strong>Redes sociais</strong></h4>
+
+            <p onclick="insta()"> <img src="arquivos/icones/instagram.png"> Instagram</p>
+            <p onclick="telegram()"> <img src="arquivos/icones/telegram.png"> Telegram</p>
+            <p onclick="whast()"> <img src="arquivos/icones/whatsapp.png"> WhastApp</p>
+        </div>
+
+
+        <div class="fotos">
+
+            <h4><strong>Amostras de fotos</strong></h4>
+
+            <div class="fotos2">
+                 <!-- Swiper -->
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Manda mimo</div>
+          <div class="swiper-slide">Manda mimo</div>
+          <div class="swiper-slide">Manda mimo</div>
+          <div class="swiper-slide">Manda mimo</div>
+          <div class="swiper-slide">Manda mimo</div>
+          <div class="swiper-slide">Manda mimo</div>
+          <div class="swiper-slide">Manda mimo</div>
+          <div class="swiper-slide">Manda mimo</div>
+          <div class="swiper-slide">Manda mimo</div>
+        </div>
+      </div>
+  
+      <!-- Swiper JS -->
+            </div>
+
+            <div onclick="pacote()" class="mimo">
+                <p><strong>Compra pack de fotos</strong></p>
+            </div>
+
+        </div>
+
+        <div class="videos">
+            <h4>Videos</h4>
+
+            <div class="videos2">
+                <video src="arquivos/videos/IMG_0397.MP4" controls></video>
+            </div> <br>
+            <div onclick="chve()" class="mimo">
+                <p><strong>Ir para conteúdo pago</strong></p>
+            </div>
+        </div> <br>
+
+        <div onclick="compraChave()" class="chave">
+            <img src="arquivos/icones/unlock-free-icon-font.png">
+            <h3>Compra chave de acesso</h3>
+            <p>A chave da Ana custa R$ 150,00</p>
+        </div>
+
+        <br><br><br>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="funcao/app.js"></script>
+</body>
+</html>
